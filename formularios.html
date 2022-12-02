@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset=”utf-8″ />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Los Sims 4 - Formulario</title>
+    <link rel="icon" href="ico.ico">
+    <head>
+        <header>
+            <img src="images/logosims.png">
+            <h2>Simulando la vida real</h2>
+        </header>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th class="navmenu">
+                    <h2 class="nav">Navegación</h2>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <div class="licontainer">
+                                <img class="limage" src="images/inicio.png">
+                                <div class="lioverlay">
+                                  <div class="litext">Inicio</div>
+                                </div>
+                              </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="crear.html">
+                            <div class="licontainer">
+                                <img class="limage" src="images/crear.png">
+                                <div class="lioverlay">
+                                  <div class="litext">Modo Crear</div>
+                                </div>
+                              </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="construir.html">
+                            <div class="licontainer">
+                                <img class="limage" src="images/construir.png">
+                                <div class="lioverlay">
+                                  <div class="litext">Modo Construir</div>
+                                </div>
+                              </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="vivir.html">
+                            <div class="licontainer">
+                                <img class="limage" src="images/vivir.png">
+                                <div class="lioverlay">
+                                  <div class="litext">Modo Vivir</div>
+                                </div>
+                              </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="formularios.html">
+                            <div class="licontainer">
+                                <img class="limage" src="images/formulario.png">
+                                <div class="lioverlay">
+                                  <div class="litext">Formulario</div>
+                                </div>
+                              </div>
+                        </a>
+                    </li>
+                </ul>
+                </th>
+                <th class="sectionwhite">
+                    <div class="flex">
+                        <div class="box">
+                            <h1>Datos personales</h1>
+                            <form action="ejemplo.php" method="get">
+                                <p class="pform">Nombre: <input type="text" name="nombre" size="28"></p>
+                                <p class="pform">Fecha de nacimiento: <input type="date" name="fecha"></p>
+                                <p class="pform">Email: <input type="email" id="email" name="email"></p>
+                                <p class="pform">Género:
+                                    <select name="gender" id="gen">
+                                        <option value="mujer">Mujer</option>
+                                        <option value="hombre">Hombre</option>
+                                        <option value="otro">Otro</option>
+                                      </select>
+                                </p>
+                                <p>
+                                  <input type="submit" value="Enviar">
+                                  <input type="reset" value="Borrar">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="box">
+                            <h1>Aficiones</h1>
+                            <form action="ejemplo.php" method="get">
+                                <p class="pform">¿Qué es lo que más sueles hacer al jugar Los Sims?<br>
+                                <div>
+                                    <input type="checkbox" id="nuevosim" name="interest" value="nuevosim" />
+                                    <label for="coding">Crear nuevos Sims</label>
+                                    <input type="checkbox" id="construir" name="interest" value="construir" />
+                                    <label for="coding">Construir casas y edificios</label>
+                                    <br>
+                                    <input type="checkbox" id="vivir" name="interest" value="vivir" />
+                                    <label for="coding">Inventarme historias</label>
+                                    <input type="checkbox" id="misiones" name="interest" value="misiones" />
+                                    <label for="coding">Hacer misiones y objetivos secretos</label>
+                                    <br>
+                                    <input type="checkbox" id="explore" name="interest" value="explore" />
+                                    <label for="coding">Explorar</label>
+                                    <input type="checkbox" id="descargar" name="interest" value="descargar" />
+                                    <label for="coding">Descargar creaciones de otras personas</label>
+                                </div>
+                                </p>
+                                <p class="pform">¿En qué plataforma sueles jugar?<br>
+                                    <select name="plataform" id="plat">
+                                        <option value="win">Microsoft Windows</option>
+                                        <option value="mac">Mac OS</option>
+                                        <option value="ps4">PlayStation 4</option>
+                                        <option value="xbo">Xbox One</option>
+                                      </select>
+                                </p>
+                                <p>
+                                  <input type="submit" value="Enviar">
+                                  <input type="reset" value="Borrar">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="box">
+                            <h1>Gustos personales</h1>
+                            <form action="ejemplo.php" method="get">
+                                <p class="pform">¿Cuál es tu DLC favorito? <input type="text" name="nombre" size="28"></p>
+                                <p class="pform">¿Cuáles son tus Sims Ocultos favoritos?<br>
+                                    <div>
+                                        <input type="checkbox" id="vampiro" name="interest" value="vampiro" />
+                                        <label for="coding">Vampiros</label>
+                                        <input type="checkbox" id="lobo" name="interest" value="lobo" />
+                                        <label for="coding">Licántropos</label>
+                                        <input type="checkbox" id="sirenas" name="interest" value="sirenas" />
+                                        <label for="coding">Sirenas</label>
+                                        <input type="checkbox" id="hechi" name="interest" value="hechi" />
+                                        <label for="coding">Hechiceros</label>
+                                        <br>
+                                        <input type="checkbox" id="servo" name="interest" value="servo" />
+                                        <label for="coding">Servos</label>
+                                        <input type="checkbox" id="plant" name="interest" value="plant" />
+                                        <label for="coding">Sim-Plantas</label>
+                                        <input type="checkbox" id="fan" name="interest" value="fan" />
+                                        <label for="coding">Fantasmas</label>
+                                        <input type="checkbox" id="alien" name="interest" value="alien" />
+                                        <label for="coding">Alienígenas</label>
+                                    </div>
+                                <p class="pform">Color favorito:  <input type="color" id="head" name="head" value="#009343"></p>
+                                <p>
+                                  <input type="submit" value="Enviar">
+                                  <input type="reset" value="Borrar">
+                                </p>
+                            </form>
+                        </div>
+                        <div class="box">
+                            <h1>Sugerencias</h1>
+                            <form action="ejemplo.php" method="get">
+                                <p class="pform">¿Qué mejorarías en el juego o en nuestro blog?<br><textarea id="sugerencia" name="sugerencia" rows="6" cols="50"></textarea></p>
+                                <p>
+                                  <input type="submit" value="Enviar">
+                                  <input type="reset" value="Borrar">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </th>
+            </tr>
+        </table>
+    </body>
+    <footer>
+        <p>Un Blog creado por Laura Jiménez Villalba, para la asignatura Lenguaje de Marcas de 1º de CFS DAM</p>
+    </footer>
+</html>
