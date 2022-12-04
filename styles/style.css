@@ -78,7 +78,7 @@ th {
 .navmenu {
     width: 16%;
 }
-p {
+p, dd {
     font-size: 120%;
     padding-top: 5px;
     margin-left: 5%;
@@ -103,7 +103,7 @@ footer {
     flex-wrap: wrap;
 }
 .box {
-    width: 42%;
+    width: 43%;
     border-radius: 30px;
     padding: 2%;
     margin-left: 2%;
@@ -223,11 +223,16 @@ hr {
     visibility:hidden;
     padding-top: 10px;
 }
-h2 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
 .textoh {
     margin-top: 1%;
     margin-bottom: 1%;
+}
+dd {
+    line-height: 160%
+}
+.imagebig {
+    width: 45%;
+}
+.imagesmall {
+    width: 90%;
 }
